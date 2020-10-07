@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+.chart-container {
+  border: 1px dashed cornflowerblue;
+  margin: 3rem;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 0px;
+  color: white;
+  padding: 12px;
+  width: 120px;
+}
+
+button {
+  height: 35px;
+  background: black;
+  border: none;
+  border-radius: none;
+  color: white;
+}
+
+.jumbotron {
+  width: 1250px;
+  height: 520;
+  border: 1px solid rgb(124, 181, 236);
+  margin: 20px;
+  padding: 10px;
+}
+
+label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="IPL visualization">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link href="../styles.css" rel="stylesheet">
+  <title>
+    IPL visualization
+  </title>
+</head>
+
+<body>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+
+  <div style="margin: 2% 10%">
+    <h1 style="text-align: center">IPL Dataset visualization</h1>
+
+
+    <label style="font-size: 24px; font-weight: bold;"> Enter Year: <input id="season" type="number" min="2008" max="2019" step="1" name="year" style="height: 15px;
+      border: 1px solid black;
+      border-radius: 0px;
+      color: black;
+      padding: 12px;
+      width: 120px;" /></label>
+
+    <button type="submit" onclick="dynamicFunction()" style="height: 35px; background:black; border:none; border-radius: none; color:white">submit</button>
+
+    <section class="jumbotron" style="width: 1250px;
+    height: 520;
+    border: 1px solid rgb(124, 181, 236);
+    margin: 20px;
+    padding:10px">
+      <div id="number-of-matches-played-in-each-stadium" class="chart-container"
+        style="min-width: 310px; height: 500px; overflow: hidden">
+      </div>
+    </section>
+
+    <section class="jumbotron" style="width: 1250px;
+    height: 520;
+    border: 1px solid rgb(124, 181, 236);
+    margin: 20px;
+    padding:10px">
+      <div id="matches-played-per-year" class="chart-container" style="min-width: 310px; height: 500px;"></div>
+    </section>
+
+    <section class="jumbotron" style="width: 1250px;
+    height: 520;
+    border: 1px solid rgb(124, 181, 236);
+    margin: 20px;
+    padding:10px">
+      <div id="matches-won-each-team-years" class="chart-container" style="min-width: 310px; height: 500px;"></div>
+    </section>
+
+    <section class="jumbotron" style="width: 1250px;
+    height: 520;
+    border: 1px solid rgb(124, 181, 236);
+    margin: 20px;
+    padding:10px">
+      <div id="extra-runs-in-2016" class="chart-container" style="min-width: 310px; height: 500px;"></div>
+    </section>
+
+    <section class="jumbotron" style="width: 1250px;
+    height: 520;
+    border: 1px solid rgb(124, 181, 236);
+    margin: 20px;
+    padding:10px">
+      <div id="top-economical-bowlers" class="chart-container" style="min-width: 310px; height: 500px;"></div>
+    </section>
+
+    <section class="jumbotron" style="width: 1250px;
+    height: 520;
+    border: 1px solid rgb(124, 181, 236);
+    margin: 20px;
+    padding:10px">
+      <div id="story" class="chart-container" style="min-width: 310px; height: 500px;"></div>
+    </section>
+
+    <script src="./app.js"></script>
+
+    <script src="./app2.js"></script>
+
+</body>
