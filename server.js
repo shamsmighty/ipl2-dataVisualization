@@ -15,5 +15,5 @@ app.get("/season/:year", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log("Server running in port 3000..... ");
+    console.log(`Server running in port ${PORT}..... `);
 });
